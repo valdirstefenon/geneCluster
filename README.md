@@ -1,7 +1,8 @@
-# geneCluster
-A package for evaluating and plotting clusters of resistance and pharma genes from annoMining
+# GFF3 Cluster Analyzer
 
-geneCluster  is a Python application that parses a GFF3 annotation file, cross-references gene identifiers against resistance and pharmaceutical annotation tables, and identifies spatial clusters of functionally related genes along scaffolds. It detects resistance gene clusters, core-validated biosynthesis clusters, and tandem duplicate pairs, then produces CSV tables and publication-ready figures.
+A tool for detecting resistance gene clusters and biosynthesis gene clusters from GFF3 annotations.
+
+GFF3 Cluster Analyzer is a Python application that parses a GFF3 annotation file, cross-references gene identifiers against resistance and pharmaceutical annotation tables, and identifies spatial clusters of functionally related genes along scaffolds. It detects resistance gene clusters, core-validated biosynthesis clusters, and tandem duplicate pairs, then produces CSV tables and publication-ready figures.
 
 The tool combines multiple evidence sources:
 
@@ -16,7 +17,7 @@ This multi-layered strategy ensures maximum recovery of biologically meaningful 
 ## Table of Contents
 
 - [Overview](#overview)
-- [What geneCluster Does](#what-gff3-cluster-analyzer-does)
+- [What GFF3 Cluster Analyzer Does](#what-gff3-cluster-analyzer-does)
 - [Pipeline Workflow](#pipeline-workflow)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
@@ -35,7 +36,7 @@ This multi-layered strategy ensures maximum recovery of biologically meaningful 
 
 ## Overview
 
-geneCluster identifies and characterizes gene clusters from annotated plant genomes using a multi-evidence strategy:
+GFF3 Cluster Analyzer identifies and characterizes gene clusters from annotated plant genomes using a multi-evidence strategy:
 
 - GFF3 gene coordinate parsing
 - Transcript-to-gene mapping from mRNA features
@@ -46,7 +47,7 @@ geneCluster identifies and characterizes gene clusters from annotated plant geno
 
 This approach maximizes recovery of biologically meaningful clusters and works with any species for which a GFF3 annotation and functional annotation tables are available.
 
-## What geneCluster Does
+## What GFF3 Cluster Analyzer Does
 
 ### Core Functions
 
